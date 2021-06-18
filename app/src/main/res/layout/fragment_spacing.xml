@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按缩放比例设置star间距"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <per.wsj.library.AndRatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:rating="4"
+            app:scaleFactor="1.0" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:max="40"
+            android:progress="20" />
+
+        <TextView
+            android:id="@+id/tvScaleFactor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:text="当前比例:1.0" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="直接设置间距(在默认基础上增加)"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <per.wsj.library.AndRatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:rating="4"
+            app:starSpacing="0dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:max="40"
+            android:progress="15" />
+
+        <TextView
+            android:id="@+id/tvSpacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:text="当前间距:0" />
+
+    </LinearLayout>
+
+</ScrollView>

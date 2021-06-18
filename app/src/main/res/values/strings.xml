@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndRatingBar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_size">Size</string>
+    <string name="title_spacing">Spacing</string>
+    <string name="title_style">Style</string>
+    <string name="title_in_list">List</string>
+    <string name="customize_count">customize count</string>
+    <string name="customize_rating_image">customize rating image</string>
+    <string name="customize_rating_color">customize rating color</string>
+    <string name="customize_secondary_color">customize secondary color</string>
+    <string name="customize_background_color">customize background color</string>
+    <string name="customize_background_image">customize background image</string>
+    <string name="keep_origin_color">keep origin color</string>
+    <string name="left_to_right">left to right</string>
+</resources>

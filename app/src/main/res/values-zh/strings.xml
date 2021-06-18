@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndRatingBar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_size">大小</string>
+    <string name="title_spacing">间距</string>
+    <string name="title_style">样式</string>
+    <string name="title_in_list">列表</string>
+    <string name="customize_count">自定义数量</string>
+    <string name="customize_rating_image">自定义图标</string>
+    <string name="customize_rating_color">自定义颜色</string>
+    <string name="customize_secondary_color">自定义次要颜色</string>
+    <string name="customize_background_color">自定义背景颜色</string>
+    <string name="customize_background_image">自定义背景图片</string>
+    <string name="keep_origin_color">保持图标原色</string>
+    <string name="left_to_right">从右往左</string>
+</resources>
